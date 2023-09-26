@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petty</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+<style>
+    body {
+        background: linear-gradient(80deg, #040006, #62005F);
+        margin: 0;
+        display: flex;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    .container2 {
+        height: 832px;
+        width: 1280px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        overflow: hidden;
+    }
+
+
+    header {
+        height: 95.5px;
+        margin: 0 auto;
+        font-size: small;
+    }
+
+    .headercolumn,
+    ul {
+        display: flex;
+        justify-content: left;
+        border-collapse: collapse;
+        width: 100%;
+        margin: 0 auto;
+        list-style: none;
+    }
+
+    ul {
+        padding-left: 0;
+    }
+
+    .logo {
+        box-sizing: border-box;
+        width: 94.1px;
+        height: 27.5px;
+        display: flex;
+        margin-top: 39px;
+        margin-left: 100px;
+        gap: 8px;
+
+    }
+
+    .paw {
+        display: flex;
+        box-sizing: border-box;
+        width: 13.65px;
+        height: 12.75px;
+        margin-top: 44px;
+        margin-left: 281.74px;
+
+
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .words {
+        box-sizing: border-box;
+        width: 779px;
+        height: 20px;
+        margin-top: 41px;
+        margin-left: 19.26px;
+        color: white;
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .contact {
+        display: flex;
+        justify-self: right;
+
+    }
+
+    .arrow {
+        margin-left: 5px;
+        background-color: white;
+        border-radius: 60%;
+        width: 20px;
+        height: 20px;
+        color: #5d015b;
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    main {
+        margin: 0 auto;
+        display: flex;
+        justify-content: left;
+
+    }
+
+    .orange {
+        color: #fe595c;
+    }
+
+    .white {
+        color: white;
+    }
+
+    .container {
+        border-collapse: collapse;
+        height: 416px;
+        width: 516px;
+        margin-left: 100px;
+        margin-top: 76.5px;
+    }
+
+    .warmth {
+        font-size: xxx-large;
+        font-weight: lighter;
+    }
+
+    .bold {
+        font-weight: 800;
+    }
+
+
+    .white.circle {
+        padding-top: 10px;
+        height: 35px;
+        width: 200px;
+        background: linear-gradient(100deg, #ff583d, #ff4166);
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        cursor: pointer;
+    }
+
+    .boxes {
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: left;
+        gap: 20px;
+        align-content: center;
+    }
+
+    .underline {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .img1 {
+        width: 86px;
+        height: 86px;
+        box-sizing: border-box;
+        display: flex;
+    }
+
+    article {
+        display: inline-block;
+        justify-content: left;
+
+    }
+
+    section {
+        display: flex;
+        justify-content: left;
+        gap: 100px;
+    }
+
+    aside {
+        display: inline-block;
+        justify-content: center;
+        width: 100%;
+        margin-left: -100px;
+        list-style: none;
+        border-collapse: collapse;
+
+    }
+
+    .ractangle {
+        width: 516px;
+        height: 636px;
+        border-top-right-radius: 30%;
+        border-top-left-radius: 30%;
+        background: linear-gradient(50deg, #040006, #62005F);
+        box-sizing: border-box;
+        margin-left: 40px;
+        margin-top: 10px;
+        box-shadow: 0px -40px 50px 40px #571444;
+    }
+
+    div div.images {
+        height: 90px;
+    }
+
+    .img2 {
+        margin-top: 569.5px;
+        margin-left: -70px;
+    }
+
+    .img1 {
+        margin-top: 240.98px;
+    }
+
+    .img3 {
+        margin-left: -20px;
+        margin-top: 38.5px;
+    }
+
+    .img4 {
+        margin-top: 83.5px;
+        margin-left: 190px
+    }
+
+    .img5 {
+        margin-top: 24.5px;
+        margin-left: 120px
+    }
+
+    .endbox {
+        color: white;
+        width: 307px;
+        height: 98px;
+        margin-top: 70px;
+        margin-left: 112.03px;
+        box-sizing: border-box;
+        font-size: smaller;
+        padding-bottom: 40px;
+
+    }
+
+    .experts {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    .circle1 {
+        height: 40px;
+        border-radius: 50%;
+
+    }
+
+    .circle2 {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+
+    .image22 {
+        margin-left: -10px;
+        border: 3px solid white;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    .image11 {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 3px solid white;
+    }
+
+    .absolute {
+        position: absolute;
+        top: 160.59px;
+        left: -146.17px;
+    }
+
+    .button {
+        width: 23px;
+        height: 23px;
+        border-radius: 50%;
+        background-color: #FF593C;
+        box-shadow: 4px 4px 7px #d63b4e;
+    }
+
+    .ellipse15 {
+        top: 200px;
+        left: -1px;
+        rotate: 3.96deg;
+        position: relative;
+
+    }
+
+    .ellipse14 {
+        top: -600px;
+        left: -300px;
+        rotate: 3.96deg;
+        position: relative;
+    }
+
+    .ellipse13 {
+        top: -900px;
+        rotate: 3.96deg;
+        position: relative;
+    }
+
+    .box-ellipse {
+        position: absolute;
+        z-index: -1;
+        height: 832px;
+        overflow: hidden;
+    }
+
+    div.white.circle {
+        border-radius: 30px;
+    }
+
+    .words li:hover {
+        background-color: #571444;
+        height: 30px;
+        border-radius: 4px;
+        font-size: larger;
+    }
+
+    .white.circle:hover {
+        font-size: large;
+    }
+
+    .white.underline:hover {
+font-size: large;
+    }
+</style>
+
+<body>
+    <div class="box-ellipse">
+        <div class="ellipse15"
+            style="width: 569px; height: 569px; transform: rotate(3.96deg); transform-origin: 0 0; background: radial-gradient(149.06% 149.06% at 75.38% 73.67%, rgba(156.83, 255, 79.69, 0.07) 0%, rgba(255, 81.81, 108.87, 0) 100%); border-radius: 9999px">
+        </div>
+        <div class="ellipse14"
+            style="width: 690px; height: 690px; transform: rotate(3.96deg); transform-origin: 0 0; background: radial-gradient(149.06% 149.06% at 75.38% 73.67%, rgba(255, 184.88, 79.69, 0.07) 0%, rgba(255, 81.81, 108.87, 0) 100%); border-radius: 9999px">
+        </div>
+        <div class="ellipse13"
+            style="width: 569px; height: 569px; transform: rotate(3.96deg); transform-origin: 0 0; background: radial-gradient(149.06% 149.06% at 75.38% 73.67%, rgba(156.83, 255, 79.69, 0.07) 0%, rgba(255, 81.81, 108.87, 0) 100%); border-radius: 9999px">
+        </div>
+    </div>
+    <div class="container2">
+        <header>
+            <div class="headercolumn">
+                <ul>
+                    <div class="box1 logo">
+                        <li><img src="Frame 3.png" , alt:logo;></li>
+                    </div>
+                    <div class="paw">
+                        <li><img src="Group 1.png" , alt:paw;></li>
+                    </div>
+                    <div class="words">
+                        <li class="home">Home</li>
+                        <li class="about ">About</li>
+                        <li class="service "> Services</li>
+                        <li class="training ">Training</li>
+                        <li class="shop">Shop</li>
+                        <li></li>
+                        <li></li>
+                        <li class="contact"> Contact us<span class="arrow">→</span></li>
+                        <li></li>
+                    </div>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <div class="container">
+                        <div class="orange welcome">
+                            <p><b>Welcome..</b></p>
+                        </div>
+                        <div>
+                            <p class="orange warmth"><span class="white">Warmth and comfort
+                                    </br>
+                                    for</span> <span class="bold"> your furry
+                                    </br>
+                                    friends</span>
+                            </p>
+                        </div>
+                        <div>
+                            <p class="white">Discover the perfect pet heating solutions to keep your beloved
+                                </br>
+                                companions cozy and content all year round.</p>
+                        </div>
+                        <div class="boxes">
+                            <div class="white circle">Our services <span class="button">></span></div>
+                            <div class="white underline">Schedule a call</div>
+                        </div>
+                    </div>
+                    <div class="endbox">
+                        <div class="experts">
+                            <div class="circle1"><img class="image11" src="photo.jpeg">
+                            </div>
+                            <div class="circle2"><img class=image22 src="download.jpeg"> </div>
+                            <div>Our Experts</div>
+                        </div>
+                        <div class="choose">
+                            <p>Choose the service they love or start</p>
+                            <p>shopping now</p>
+                        </div>
+                    </div>
+                </article>
+                <aside>
+                    <div class="images">
+                        <ul>
+                            <li class="img1"><img src="Ellipse 12.png"> </li>
+                            <li class="img2"><img src="Ellipse 10.png"> </li>
+                            <li class="img3"><img src="Ellipse 11.png"> </li>
+                            <li class="img4"><img src="Ellipse 8.png"> </li>
+                            <li class="img5"><img src="Ellipse 9.png"> </li>
+                        </ul>
+                    </div>
+                    <div class="ractangle">
+                        <img style="padding-top: 123px;" src="ideogram 1 1.png">
+                    </div>
+                </aside>
+            </section>
+        </main>
+    </div>
+
+</body>
+
+</html>
